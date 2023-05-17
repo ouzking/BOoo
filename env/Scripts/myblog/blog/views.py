@@ -9,3 +9,9 @@ def login(request):
 
 def register(request):
     return render(request, 'register.html')
+
+def open(request):
+    return render(request, 'open.html')
+
+def edit(request):
+    return render(request, 'edit.html')
